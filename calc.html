@@ -4,6 +4,7 @@
     <title>Calc</title>
     <script language=javascript type="text/javascript">
     var plus,minus,divide,multiply,max
+var plus,minus,divide,multiply,max
 
     function initialize() {
         plus = document.calc.operator.options[0]
@@ -23,7 +24,7 @@
         if (divide.selected)
             document.calc.answer.value = a / b
         if (multiply.selected)
-        document.calc.answer.value = a * b
+            document.calc.answer.value = a * b
 	if (max.selected)
 		document.calc.answer.value = Math.max(a,b)
     }

@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Calc</title>
+   <title>Advanced Calculator</title>
     <script language=javascript type="text/javascript">
 var plus,minus,divide,multiply,max,pow,min,avg
 
@@ -45,7 +45,7 @@ var plus,minus,divide,multiply,max,pow,min,avg
     <h2>Calc</h2> Enter a number in the first box and a number in the second box and select the answer button to see the answer.
     <br> Change the operation via the dropdown selection box if desired.
     <form name="calc" action="post">
-        <input type=text name=val1 size=10>
+<input type=text name=val1 size=5>
         <select name=operator>
             <option value=plus>+
             <option value=minus>-
@@ -57,8 +57,9 @@ var plus,minus,divide,multiply,max,pow,min,avg
             <option value=avg>avg
         </select>
         <input type=text name=val2 size=10> =
-        <input type=text name=answer size=10>
-<input type=button value="show answer" onClick="calculate()">
+<input type=text name=val2 size=5>
+<input type=text name=answer size=5>
+<input type=button value="Get answer" onClick="calculate()">
     </form>
     <br>
     <br>
